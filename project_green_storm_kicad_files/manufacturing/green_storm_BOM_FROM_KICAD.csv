@@ -1,0 +1,22 @@
+Source:,/Users/adamh/Dev/project_green_storm/green_storm.kicad_sch,,,,,,
+Date:,"Monday, January 08, 2024 at 12:39:12â€¯AM",,,,,,
+Tool:,Eeschema 7.0.10,,,,,,
+Generator:,/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value_with_fp.py,,,,,,
+Component Count:,32,,,,,,
+Ref,Qnty,Value,Cmp name,Footprint,Description,Vendor,DNP
+"C1, C2",2,22u,C,Capacitor_SMD:C_0805_2012Metric,Unpolarized capacitor,Mouser,80-C0805C226K9PACTU
+C3,1,10u,C,Capacitor_SMD:C_0603_1608Metric,Unpolarized capacitor,Mouser,187-CL10A106KQ8NNNC
+"C4, C5, C6, C7, C11",5,100n,C,Capacitor_SMD:C_0402_1005Metric,Unpolarized capacitor,Mouser,80-C0402C104M8R
+C8,1,10n,C,Capacitor_SMD:C_0402_1005Metric,Unpolarized capacitor,Digi-Key,13-CC0402ZRY5V8BB103DKR-ND
+"C9, C10",2,1u,C,Capacitor_SMD:C_0402_1005Metric,Unpolarized capacitor,Mouser,581-04026D104KAT4A
+"C12, C13",2,10p,C,Capacitor_SMD:C_0402_1005Metric,Unpolarized capacitor,Mouser,581-04026D100JAT2A
+D1,1,RED,LED,LED_SMD:LED_0603_1608Metric,Light emitting diode,Mouser,604-APT1608SEC/J3AMT
+FB1,1,120R,FerriteBead,Inductor_SMD:L_0603_1608Metric,Ferrite bead,Digi-Key,240-2367-2-ND
+J1,1,USB_B_Micro,USB_B_Micro,Connector_USB:USB_Micro-B_Wuerth_629105150521,USB Micro Type B connector,Mouser,710-629105150521
+"J2, J3, J4",3,Conn_01x04,Conn_01x04,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Mouser,200-TSW10424TS
+"R1, R3, R4, R5",4,1k5,R_2,Resistor_SMD:R_0402_1005Metric,Resistor,Mouser,603-RT0402DRE07845RL
+R2,1,10k,R,Resistor_SMD:R_0402_1005Metric,Resistor,Digi-Key,P17194CT-ND
+SW1,1,SW_SPDT,SW_SPDT,Button_Switch_SMD:SW_SPDT_PCM12,"Switch, single pole double throw",Mouser,611-PCM12SMTBR
+U1,1,AMS1117-3.3,AMS1117-3.3,"Rua Dr. Joaquim EleutŽrio Gaspar Gomes, 24A, 1¡","1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",Digi-Key,4518-AMS1117-3.3CT-ND
+U2,1,STM32F103C8T6,STM32F103C8Tx,"Queluz, Portugal 2745-133","STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48",Mouser,511-STM32F103C8T6
+Y1,1,16Mhz,Crystal_GND24,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,"Four pin crystal, GND on pins 2 and 4",Mouser,581-CX3225GB16PHPQCC
